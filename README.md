@@ -59,6 +59,10 @@ Based off [this awesome hook](https://github.com/diegonetto/generator-ionic/blob
         <key>NSAllowsArbitraryLoads</key><true/>
       </dict>
     </config-file>
+
+    <config-file platform="ios" target="project.pbxproj">
+      <build-property name="ENABLE_BITCODE" value="NO" />
+    </config-file>
 </platform>
 ```
 
